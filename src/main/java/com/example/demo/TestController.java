@@ -13,6 +13,6 @@ public class TestController {
     @RequestMapping("/data")
     @ResponseBody
     public String data() {
-        return "hello word";
+        return "hello word!";
     }
 }
